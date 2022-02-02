@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Chen_Portfolio/static/css/main.2c5657e8.chunk.css",
+    "main.js": "/Chen_Portfolio/static/js/main.06aeed2a.chunk.js",
+    "main.js.map": "/Chen_Portfolio/static/js/main.06aeed2a.chunk.js.map",
+    "runtime-main.js": "/Chen_Portfolio/static/js/runtime-main.860973f0.js",
+    "runtime-main.js.map": "/Chen_Portfolio/static/js/runtime-main.860973f0.js.map",
+    "static/js/2.1c31fb47.chunk.js": "/Chen_Portfolio/static/js/2.1c31fb47.chunk.js",
+    "static/js/2.1c31fb47.chunk.js.map": "/Chen_Portfolio/static/js/2.1c31fb47.chunk.js.map",
+    "static/js/3.363b394f.chunk.js": "/Chen_Portfolio/static/js/3.363b394f.chunk.js",
+    "static/js/3.363b394f.chunk.js.map": "/Chen_Portfolio/static/js/3.363b394f.chunk.js.map",
+    "index.html": "/Chen_Portfolio/index.html",
+    "static/css/main.2c5657e8.chunk.css.map": "/Chen_Portfolio/static/css/main.2c5657e8.chunk.css.map",
+    "static/js/2.1c31fb47.chunk.js.LICENSE.txt": "/Chen_Portfolio/static/js/2.1c31fb47.chunk.js.LICENSE.txt",
+    "static/media/Profile.css": "/Chen_Portfolio/static/media/profile_img.577b45ed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.860973f0.js",
+    "static/js/2.1c31fb47.chunk.js",
+    "static/css/main.2c5657e8.chunk.css",
+    "static/js/main.06aeed2a.chunk.js"
+  ]
+}
