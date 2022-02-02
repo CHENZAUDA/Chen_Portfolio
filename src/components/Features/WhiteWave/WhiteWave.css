@@ -1,0 +1,18 @@
+.whiteWave-container{
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.whiteWave-parent{
+    width: 100%;
+    height:100% ;
+    max-width: 100%;
+}
+
+.whiteWave-parent img{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(182, 18, 18);
+}

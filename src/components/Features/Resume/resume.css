@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;  
+}
+.education-container{
+    display: flex;
+    width:100%;
+    height:100%;
+    margin: 5px 10px 5px 0px;
+    justify-content: space-between;
+} 
+.education-container b{
+ color: white;
+padding: 10px;
+margin:35px;
+
+}
+
+.education-container .education-context {
+    margin: 35px 5px 35px 55px;
+    font-weight: 450;
+    font-size: large;
+    color: white;
+}
+.education-container .education-context span{
+    color: rgb(252, 250, 249);
+    font-weight: 700;
+}
+
+
+.project-container{
+    margin-left:60px;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    flex-direction: column;
+
+}
+
+.project-container b{
+    color: var(--white);
+    margin: 15px;
+}
+.project-card{
+    position:absolute;
+    right: -120px;
+    top: 72px;
+    width: 480px;
+    height: 280px;
+    margin: 10px 5px 10px 10px ;
+    box-shadow: 20px 20px 42px rgba(225,225,225,0.5);
+    border-radius: 15px;
+    border-top: 2px solid rgba(225,225,225,0.5); 
+    border-left: 1px solid rgba(225,225,225,0.5);
+} 
+
+ .project{
+    width: 350px;
+    height: 330px;
+    padding: 20px;
+    position: relative;
+    top: 25px;
+    left: 55px;
+}
+
+h3{
+    padding: 5px;
+    font-size: 1.5em;
+   color:var(--dark-orange);
+
+}
+.right-arrow {
+    position: absolute;
+    top: 245px;
+    left: 510px;
+    font-size: 3rem;
+    color: var(--dark-orange);
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 250px;
+    left: -120px;
+    font-size: 3rem;
+    color: var(--dark-orange);
+    z-index: 10;
+    cursor: pointer;
+  }
+.project-context{
+    font-size: 0.8em;
+    color: white;
+    font-weight:70 ;
+    margin: 20px;
+}
+.interest-container{
+    display: flex;
+    width:100%;
+    height:100%;
+    margin: 25px 0px 15px 15px;
+
+} 
+.interest-container b{
+    margin:35px;
+    color: white;
+}
+
+.interest-list .interest-context{
+width: 100%;
+height: 100%;
+display: flex;
+color: var(--white);
+margin: 35px 5px 35px 15px;
+font-weight: 650;
+}
+
+.skill-container{
+    display: flex;
+    position: relative;
+    left:10%;
+    width:50%;
+    height:70%
+}
+.skill-container b{
+    color: var(--white);
+    margin:35px;
+}
+.skill-context{
+    width: 400px;
+    height: 150px;
+}
+@media (max-width: 1100px){
+    .education-container .education-context {
+        margin: 35px 5px 35px 55px;
+        font-weight: 450;
+        font-size: large;
+        color: white;
+    }
+}
+
+@media (max-width: 910px){
+    .education-container .education-context {
+        margin: 30px 5px 30px 5px;
+        font-weight: 250;
+        font-size: medium;
+    }
+   
+    .project-card{
+        width: 400px;
+        right: -20px;
+        
+    }
+    .left-arrow {
+     top: 200px 
+   }
+   .right-arrow {
+    top: 200px ;
+    left: 370px;
+  }
+}
+
+@media (max-width: 810px){
+
+    .left-arrow {
+        top: 350px ;
+        left: 60px;
+
+      }
+      .right-arrow {
+       top: 350px ;
+       left: 200px;
+     }
+
+     .interest-container{
+        margin: 0px 0px 5px 0px;
+    }
+    .project-card{
+        top: 50px;
+    }
+    .project{
+        top: 3px;
+        left: 55px;  
+    }
+  
+ 
+}
+
+@media (max-width: 710px){
+    .education-container b,
+    .project-container b,
+    .skill-container b,
+    .interest-container b{
+        margin: 10px;
+    }
+    .project-container{
+        margin-top:-50px;
+    }
+
+    .project-card{
+        right: -20px;
+        top: 38px;
+    }
+    .project{
+        left: 35px;
+    }
+    .interest-list .interest-context{
+        margin: 10px 85px 15px 5px;
+        width: 70%;
+    }
+    .education-container .education-context {
+        width: 75%;
+    }
+    .left-arrow {
+        top: 330px ;
+        left: 60px;
+
+      }
+      .right-arrow {
+       top: 330px ;
+       left: 220px;
+     }
+}
+@media (max-width: 610px){
+    
+    b,h3{
+        display: none;
+      }
+      .education-container .education-context {
+        margin: 3px 0px 0px 25px;
+        color: white;
+        height: fit-content;
+        width: 77%;
+
+    }
+    .interest-list{
+        height:55px;
+        margin: 3px 0px 0px 40px;
+    }
+  
+    .project-card{
+        right: 47px;
+        top: 0;
+        width: 310px;
+        height: 275px;
+        margin: 0px 5px 0px 10px ;
+        
+    }
+    .project{
+        left: 0px;
+    }
+    .left-arrow {
+        top: 280px ;
+        left: 80px;
+
+      }
+      .right-arrow {
+       top: 280px ;
+       left: 160px;
+     }
+
+     .skill-container{
+        max-width: 290px;
+     }
+ 
+
+}
+

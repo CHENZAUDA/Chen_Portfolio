@@ -1,0 +1,31 @@
+
+.wave-container{
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.wave-parent{
+    width: 100%;
+    height:100% ;
+    max-width: 100%;
+}
+.wave-parent img{
+    width: 100%;
+    height: 130px;
+}
+
+@media only screen and (max-width:1110px) {
+    .wave-parent{
+        display: flex;
+        align-items: flex-end;
+    }
+    .whiteWave-parent{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+}
+

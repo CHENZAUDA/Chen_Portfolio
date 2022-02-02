@@ -1,0 +1,25 @@
+
+.aboutMe-container{
+ width: 100%;
+ height: 94vh;
+ margin-top: 10px ;
+ 
+}
+
+h2{
+margin: 15px 0px 20px 50px;
+text-align: center;
+font-weight: 600;
+color: var(--dark-orange);
+}
+
+.aboutMe-context{
+    display: flex;
+    text-align: center;
+    margin: 80px;
+    flex-direction: column;
+    font-weight: 460;
+    font-family: 'Poppins',sans-serif;  
+
+}
+
